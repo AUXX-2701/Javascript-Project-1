@@ -5,7 +5,6 @@ function weekday(){
     const joursDeLaSemaine = ["LUNDI", "MARDI", "MERCREDI", "JEUDI", "VENDREDI"];
     for(let i = 0; i < (joursDeLaSemaine.length); i++) {
         if (inputText.toUpperCase() == joursDeLaSemaine[i]){
-            inputText = null;
             console.log(inputText);
             break;
         }
